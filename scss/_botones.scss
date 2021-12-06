@@ -1,0 +1,36 @@
+.boton {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.boton--verde {
+    border: 2px solid #00BFA6;
+    background: #00BFA6;
+}
+.boton--verde:hover {
+    background: #fff;
+    color: #00BFA6;
+        }
+
+.boton--violeta {
+    background-color: #776eaa;
+    border: 2px solid #776eaa;
+}
+
+.boton--violeta:hover {
+background: #fff;
+color: #776eaa;
+}
+
+#btnEnviar {
+margin-top: 1rem;
+}
